@@ -1,0 +1,15 @@
+{
+  "version": "0.5.2",
+  "notes": "Pitlane 0.5.2 — Corrige a seleção de projetos após a migração.",
+  "pub_date": "2026-08-28T22:11:24.442Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZVI5R2NRN2ZvUG51Qk5BSy9TMktlNWphWEN6S3RrYkFTTGMvd1lkNDgvM083dHdoUzd1aCtFYmN3eXJ2clBXY0U1Z1hiSnQyQVJGN0JPRXlJL2luaVdRT0xjelJWNGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTU0ODkyCWZpbGU6UGl0bGFuZV8wLjUuMl94NjQtc2V0dXAuZXhlClNnRFI1czAxTlFPTC96UWUzSDNjYUZ5Zndnck90QldZOXM4dFQ5c1QraDhIWHVQcDkxMFp4Z1dzbkJidFF3ZzZIOVlPMnBwZGM2WUtRSUJLWDRTSkRBPT0K",
+      "url": "https://github.com/HeversonSilva-gif/pitlane-releases/releases/download/v0.5.2/Pitlane_0.5.2_windows_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZVI5R2NRN2ZvUG51Qk5BSy9TMktlNWphWEN6S3RrYkFTTGMvd1lkNDgvM083dHdoUzd1aCtFYmN3eXJ2clBXY0U1Z1hiSnQyQVJGN0JPRXlJL2luaVdRT0xjelJWNGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTU0ODkyCWZpbGU6UGl0bGFuZV8wLjUuMl94NjQtc2V0dXAuZXhlClNnRFI1czAxTlFPTC96UWUzSDNjYUZ5Zndnck90QldZOXM4dFQ5c1QraDhIWHVQcDkxMFp4Z1dzbkJidFF3ZzZIOVlPMnBwZGM2WUtRSUJLWDRTSkRBPT0K",
+      "url": "https://github.com/HeversonSilva-gif/pitlane-releases/releases/download/v0.5.2/Pitlane_0.5.2_windows_x64-setup.exe"
+    }
+  }
+}
