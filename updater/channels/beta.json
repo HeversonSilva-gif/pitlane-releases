@@ -1,15 +1,15 @@
 {
-  "version": "0.5.2",
-  "notes": "Pitlane 0.5.2 — Corrige a seleção de projetos após a migração.",
-  "pub_date": "2026-08-28T22:11:24.442Z",
+  "version": "0.5.3",
+  "notes": "# Pitlane 0.5.3\n\nA rebuilt Maestro for turning a conversation into working software.\n\n## What's changed\n\n- **Follow the work in terminals.** Your first message opens the Maestro and agent terminals, with live output and history. Keep directing the work through Maestro.\n- **Let Maestro assemble the team.** Maestro decides how many agents run in parallel, without a fixed agent cap, and can choose a model for each task from your authenticated catalog. You can also keep tasks on a fixed model and effort setting.\n- **Keep model choices current.** The catalog refreshes automatically from connected providers. Codex discovery includes models such as Astra and Spark when available to your account.\n- **Recover and continue.** Improved retry, repair approvals, final verification, and restoration of mission and terminal history help you continue when a step fails.\n- **Start a project from the app.** Project creation prepares the local Git repository and initial commit so Maestro can begin working.\n- **See connection problems where they belong.** Claude and Gemini adapters now join the Maestro workflow. Connection status explains unavailable providers while keeping working connections usable.\n- **Focus on software development.** Removed the legacy X integration, image and video generation, and Jarvis voice workflows.\n\n## Known limitations\n\n- **Claude and Gemini remain experimental.** Their adapters passed local automated tests, but authenticated execution has not yet been validated end to end. Availability requires a supported, authenticated CLI connection; catalog entries alone do not prove that a task can run.\n- **Kaspersky compatibility remains under investigation.** Reported detections have not been confirmed as false positives or resolved.\n- **CPU and memory optimization remains open.** Resource measurements are recorded, but this release does not claim a verified reduction in overall consumption.",
+  "pub_date": "2026-09-08T15:52:26.286Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZVI5R2NRN2ZvUG51Qk5BSy9TMktlNWphWEN6S3RrYkFTTGMvd1lkNDgvM083dHdoUzd1aCtFYmN3eXJ2clBXY0U1Z1hiSnQyQVJGN0JPRXlJL2luaVdRT0xjelJWNGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTU0ODkyCWZpbGU6UGl0bGFuZV8wLjUuMl94NjQtc2V0dXAuZXhlClNnRFI1czAxTlFPTC96UWUzSDNjYUZ5Zndnck90QldZOXM4dFQ5c1QraDhIWHVQcDkxMFp4Z1dzbkJidFF3ZzZIOVlPMnBwZGM2WUtRSUJLWDRTSkRBPT0K",
-      "url": "https://github.com/HeversonSilva-gif/pitlane-releases/releases/download/v0.5.2/Pitlane_0.5.2_windows_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZVI5R2NRN2ZvUHZlaG5TNHZVS1VUU1FUNzZHaURuSjFOK1BPU0NVOXlTK3hyeHlOOFJpdytMSHJhbGhFc0R5UlA1TzFnOURhZnRjTG8xdTZxZ1lNTUI1N04rdlRZVEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODgyNzA2CWZpbGU6UGl0bGFuZV8wLjUuM194NjQtc2V0dXAuZXhlCjA5Q1hnejJOeWpIb3dlT0RVdmRpclZ1aVFaS2VFUTV1c0paZzRzc2F6dlBGelNkOFhlditqMzJGU0d1eUpxOHZkZGJsd3dkTmQvV0ZZNEhqYUlkekNnPT0K",
+      "url": "https://github.com/HeversonSilva-gif/pitlane-releases/releases/download/v0.5.3/Pitlane_0.5.3_windows_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZVI5R2NRN2ZvUG51Qk5BSy9TMktlNWphWEN6S3RrYkFTTGMvd1lkNDgvM083dHdoUzd1aCtFYmN3eXJ2clBXY0U1Z1hiSnQyQVJGN0JPRXlJL2luaVdRT0xjelJWNGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTU0ODkyCWZpbGU6UGl0bGFuZV8wLjUuMl94NjQtc2V0dXAuZXhlClNnRFI1czAxTlFPTC96UWUzSDNjYUZ5Zndnck90QldZOXM4dFQ5c1QraDhIWHVQcDkxMFp4Z1dzbkJidFF3ZzZIOVlPMnBwZGM2WUtRSUJLWDRTSkRBPT0K",
-      "url": "https://github.com/HeversonSilva-gif/pitlane-releases/releases/download/v0.5.2/Pitlane_0.5.2_windows_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSZVI5R2NRN2ZvUHZlaG5TNHZVS1VUU1FUNzZHaURuSjFOK1BPU0NVOXlTK3hyeHlOOFJpdytMSHJhbGhFc0R5UlA1TzFnOURhZnRjTG8xdTZxZ1lNTUI1N04rdlRZVEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODgyNzA2CWZpbGU6UGl0bGFuZV8wLjUuM194NjQtc2V0dXAuZXhlCjA5Q1hnejJOeWpIb3dlT0RVdmRpclZ1aVFaS2VFUTV1c0paZzRzc2F6dlBGelNkOFhlditqMzJGU0d1eUpxOHZkZGJsd3dkTmQvV0ZZNEhqYUlkekNnPT0K",
+      "url": "https://github.com/HeversonSilva-gif/pitlane-releases/releases/download/v0.5.3/Pitlane_0.5.3_windows_x64-setup.exe"
     }
   }
 }
